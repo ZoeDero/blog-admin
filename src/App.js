@@ -21,7 +21,7 @@ function App() {
       <Route path="/" element={<BaseScreen/>}>
         <Route index element = {<LandingScreen/>}/>
         <Route path="/login" element = {<LoginScreen/>}/>
-        <Route path="/appusers" element = {<h1>List of users</h1>}/>
+        {/* <Route path="/appusers" element = {<h1>List of users</h1>}/> */}
         <Route path="/accounts" element = {<AccountScreen/>}/>
         <Route path="/articles" element = {<ArticleScreen/>}/>
         <Route path="/tags" element = {<TagScreen/>}/>
