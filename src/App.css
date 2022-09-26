@@ -16,3 +16,24 @@ body{
 
 }
 
+.imgProfil{
+  height:200px!important;
+  object-fit: cover;
+  object-position: center;
+  width: 300px !important;
+
+}
+
+.cardProfile{
+  object-fit: cover;
+  object-position: center;
+  
+  width:60vw;
+
+
+}
+ .cardProfile img{
+ 
+  
+  
+ }
