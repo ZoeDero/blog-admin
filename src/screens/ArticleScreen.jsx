@@ -24,11 +24,11 @@ function ArticleScreen() {
         <tbody className='articleBody row '>
             {art.map(article => {
                 return(
-                <tr className='card-fluid rounded-3 bg-dark p-0 d-flex flex-column m-3' key={article.Id_article}  onClick={()=>{navigate(`/article/${article.Id_article}`);}} >
-                   <img src={article.img_src} className="imgCard" />
+                <div className='card-fluid rounded-3 bg-dark p-0 d-flex flex-column m-3' key={article.Id_article}  onClick={()=>{navigate(`/article/${article.Id_article}`);}} >
+                   <img src={Image.src} className="imgCard" />
                     <td className='articleTitre text-white'>{article.title}</td>
                     <td className="text-end  text-light">Crée le : {article.created_at}</td>
-                </tr>
+                </div>
                     
                     
                     )

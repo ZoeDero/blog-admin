@@ -10,9 +10,9 @@ body{
 
 .main{
   height: 100vh;
-  width : calc (100vw - 200px);
+  width : calc(100vw - 200px)!important;
   display: flex;
-  margin-left:20vh;
+  margin-left: 170px;
 
 }
 
@@ -32,8 +32,3 @@ body{
 
 
 }
- .cardProfile img{
- 
-  
-  
- }

@@ -19,7 +19,7 @@ useEffect( ()=>{
 
     return (
         <div>
-            <h1> {article?.title}</h1>
+            <h1 className='text-center ms-4'> {article?.title}</h1>
             <td className='articleContent'>{article?.content}</td>
         </div>
     );

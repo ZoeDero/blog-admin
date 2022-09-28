@@ -18,8 +18,11 @@ function ThemeScreen() {
     },[])
 
     return ( 
-        <table className="d-flex flex-column m-auto mt-1">
-        <h1 className="d-flex justify-content-center">THEMES</h1>
+        <div className="m-auto mt-1 container-fluid text-center">
+       
+        <h1 className="mb-4 ">THEMES</h1>
+       
+        <table className="container-fluid d-flex flex-column m-auto mt-4">
         <tbody className="row ">
             {theme.map(theme => {
                 return(
@@ -28,7 +31,7 @@ function ThemeScreen() {
                     <div className="card  bg-dark text-white " >
                             <img src={theme.img_src} className="imgCardTheme"  alt="..." />
                        
-                            <h5 className="card-title m-auto">{theme.title}</h5>
+                            <div className="card-title m-auto">{theme.title}</div>
                            
                         </div>
                    
@@ -40,6 +43,7 @@ function ThemeScreen() {
             })}
         </tbody>
        </table>
+       </div>
        );
 }
 
